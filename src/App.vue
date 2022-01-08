@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <traffic-light></traffic-light>
+    <on-off-counter></on-off-counter>
     <hr />
   </div>
 </template>
 
 <script>
-import TrafficLight from "@/components/TrafficLight";
+
+import OnOffCounter from './components/OnOffCounter.vue';
 
 export default {
   name: "App",
   components: {
-    TrafficLight,
+    OnOffCounter,
   },
 };
 </script>
